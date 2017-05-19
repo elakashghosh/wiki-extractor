@@ -20,12 +20,12 @@ printf "\n:+ installing wikipedia\n\n"
 sudo pip install wikipedia
 
 
-cp -r wiki-ext /opt
-sudo ln -s /opt/wiki-ext/wikiext.sh /usr/local/bin/wikiext
-chmod +x /opt/wiki-ext/wikiext.sh
+#cp -r wiki-ext /opt
+#sudo ln -s /opt/wiki-ext/wikiext.sh /usr/local/bin/wikiext
+#chmod +x /opt/wiki-ext/wikiext.sh
 
 printf "\n:: we are done.\n"
-printf "\n:: USAGE: type 'wikiext' in a terminal window and hit enter.\n\n"
+printf "\n:: USAGE: type './wikiext.sh' in a terminal window and hit enter.\n\n"
 printf ":: NOTE: this is tool is just for getting \n" 
 printf "data from wikipedia so if you are gonna ask \n" 
 printf "it about'give me an update on weather' then believe\n" 
