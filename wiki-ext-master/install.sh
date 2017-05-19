@@ -23,6 +23,7 @@ sudo pip install wikipedia
 #cp -r wiki-ext /opt
 #sudo ln -s /opt/wiki-ext/wikiext.sh /usr/local/bin/wikiext
 #chmod +x /opt/wiki-ext/wikiext.sh
+#in next update i'll figure this out
 
 printf "\n:: we are done.\n"
 printf "\n:: USAGE: type './wikiext.sh' in a terminal window and hit enter.\n\n"
